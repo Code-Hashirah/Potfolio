@@ -18,3 +18,11 @@
     justify-content: center;
     flex-direction: column;
 } */
+#bg-card{
+    background-image: url('img/background1.jpg');
+    background-attachment: fixed;
+    
+}
+.pic{
+    background-color: rgba(rgb(61, 54, 54), rgb(83, 94, 83), rgb(140, 140, 165), alpha);
+}
