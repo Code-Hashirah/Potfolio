@@ -41,6 +41,14 @@
     font-size: 13px;
   
 }
+.back1{
+    display: none;
+    /* position: absolute; */
+    /* top: 70px; */
+    color: white;
+    font-size: 13px;
+  
+}
 
 .skillz{
     position: relative;
@@ -51,6 +59,11 @@
 }   
 
 .skillz:hover .back{
+    display: inline-block;
+    transition: 0.4s ease;
+   
+}
+.skillz:hover .back1{
     display: inline-block;
     transition: 0.4s ease;
    
@@ -70,6 +83,14 @@
 }
 .softSkills{
     background-image: url('img/background3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+#abtPic{
+    display: block;
+}
+#About{
+    background-image: url('img/about.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
