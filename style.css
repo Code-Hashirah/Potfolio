@@ -63,3 +63,13 @@
     transition: 1.4s ease;
     background-color:#0d6efd;
 }
+.webSkills{
+    background-image: url('img/background2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.softSkills{
+    background-image: url('img/background3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
